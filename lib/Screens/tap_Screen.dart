@@ -27,7 +27,13 @@ class _TapScreenState extends State<TapScreen> {
       appBar: AppBar(
         title: Text(_page[_curintPage]["title"]),
       ),
-      drawer: Drawers(),
+      drawer: Drawers(
+
+
+
+
+        
+      ),
       body: _page[_curintPage]["page"],
       bottomNavigationBar: BottomNavigationBar(
         currentIndex: _curintPage,
